@@ -25,7 +25,7 @@ export default function ContactPage() {
               Email
             </div>
             <a
-              className="mt-1 inline-block text-neutral-700 underline underline-offset-4 hover:text-[color:var(--accent)]"
+              className="mt-1 inline-block text-neutral-700 underline underline-offset-4 hover:text-(--accent)"
               href={`mailto:${EMAIL}`}
             >
               {EMAIL}
@@ -34,7 +34,7 @@ export default function ContactPage() {
 
           <div className="grid gap-2 text-sm">
             <a
-              className="text-neutral-700 underline underline-offset-4 hover:text-[color:var(--accent)]"
+              className="text-neutral-700 underline underline-offset-4 hover:text-(--accent)"
               href={LINKEDIN}
               target="_blank"
               rel="noreferrer"
@@ -42,7 +42,7 @@ export default function ContactPage() {
               LinkedIn
             </a>
             <a
-              className="text-neutral-700 underline underline-offset-4 hover:text-[color:var(--accent)]"
+              className="text-neutral-700 underline underline-offset-4 hover:text-(--accent)"
               href={GITHUB}
               target="_blank"
               rel="noreferrer"
@@ -59,7 +59,7 @@ export default function ContactPage() {
 
       <div className="text-sm text-neutral-600">
         Prefer to start with my work?{" "}
-        <Link className="underline underline-offset-4 hover:text-[color:var(--accent)]" href="/work">
+        <Link className="underline underline-offset-4 hover:text-(--accent)" href="/work">
           View selected projects
         </Link>
         .

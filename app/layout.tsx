@@ -10,8 +10,20 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ben Moore — Developer Portfolio",
-  description: "Shopify / Hydrogen developer portfolio",
+  title: {
+    default: "Ben Moore — Ecommerce Developer",
+    template: "%s | Ben Moore",
+  },
+  description:
+    "Shopify and headless ecommerce developer specializing in performance optimization, custom theme development, and scalable storefront architecture.",
+  openGraph: {
+    title: "Ben Moore — Ecommerce Developer",
+    description:
+      "Shopify and headless ecommerce developer specializing in performance optimization and scalable storefront architecture.",
+    url: "https://benmoore.vercel.app", // update later if custom domain
+    siteName: "Ben Moore",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

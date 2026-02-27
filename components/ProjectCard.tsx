@@ -29,11 +29,11 @@ export function ProjectCard({ project }: { project: Project }) {
             sizes="(max-width: 768px) 100vw, 640px"
           />
 
-          <div className="absolute inset-0 flex items-center justify-center bg-black/0 transition duration-300 group-hover:bg-black/40">
-            <span className="text-sm font-medium text-white opacity-0 transition duration-300 group-hover:opacity-100">
-              View gallery →
-            </span>
-          </div>
+        <div className="absolute inset-0 flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100">
+            <div className="rounded-full bg-emerald-700 px-5 py-2 text-sm font-medium text-white shadow-lg">
+                View gallery →
+            </div>
+        </div>
         </div>
       </button>
 

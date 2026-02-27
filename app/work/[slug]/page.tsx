@@ -71,6 +71,25 @@ export default async function ProjectDetailPage({
         </section>
       ) : null}
 
+        {project.video ? (
+        <section className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
+            <h2 className="text-sm font-semibold tracking-wide text-neutral-500 uppercase">
+            Project Walkthrough
+            </h2>
+
+            <div className="mt-5 overflow-hidden rounded-xl border border-neutral-200 bg-black">
+            <video
+                controls
+                className="w-full"
+                preload="metadata"
+            >
+                <source src={project.video} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            </div>
+        </section>
+        ) : null}
+
       <section className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
         <h2 className="text-sm font-semibold tracking-wide uppercase text-(--accent)">
           Gallery

@@ -6,7 +6,7 @@ export type Project = {
     stack: string[];
     highlights: string[];
     link?: string;
-  
+    video?: string;
     coverImage: string;
     gallery: { src: string; alt: string }[];
   };
@@ -52,6 +52,7 @@ export type Project = {
       ],
       link: "https://www.katefarms.com",   // ✅ Added
       coverImage: "/work/kate-farms/KF-HP-DT.png",
+      video: "/work/kate-farms/katefarms-video.mp4",
       gallery: [
         { src: "/work/kate-farms/KF-HP.png", alt: "Kate Farms homepage" },
         { src: "/work/kate-farms/KF-Shop-All1.webp", alt: "Kate Farms shop all" },

@@ -51,7 +51,7 @@ export type Project = {
         "Leveraged AI for high converting API functionalities",
       ],
       link: "https://www.katefarms.com",   // ✅ Added
-      coverImage: "/work/kate-farms/KF-Shop-All1.webp",
+      coverImage: "/work/kate-farms/KF-HP-DT.png",
       gallery: [
         { src: "/work/kate-farms/KF-HP.png", alt: "Kate Farms homepage" },
         { src: "/work/kate-farms/KF-Shop-All1.webp", alt: "Kate Farms shop all" },

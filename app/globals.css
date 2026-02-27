@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f9fafb;
+  --foreground: #111827;
+
+  /* Forest accent */
+  --accent: #1f3d2b;
+  --accent-soft: #e7f0ea;
 }
 
 @theme inline {
@@ -12,15 +16,16 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+a.brand-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+a.brand-link:hover {
+  color: var(--accent);
 }

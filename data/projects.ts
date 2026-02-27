@@ -55,7 +55,7 @@ export type Project = {
       video: "/work/kate-farms/katefarms-video.mp4",
       gallery: [
         { src: "/work/kate-farms/KF-HP.png", alt: "Kate Farms homepage" },
-        { src: "/work/kate-farms/KF-Shop-All1.webp", alt: "Kate Farms shop all" },
+        { src: "/work/kate-farms/KF-SHOP-All1.webp", alt: "Kate Farms shop all" },
         { src: "/work/kate-farms/KF-Medical.png", alt: "Kate Farms medical page" },
         { src: "/work/kate-farms/KF-Account.png", alt: "Kate Farms account page" },
         { src: "/work/kate-farms/KF-OTPtoSUB.png", alt: "Kate Farms OTP to subscription" },

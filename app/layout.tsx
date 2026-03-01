@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ben Moore — Ecommerce Developer",
     description:
-      "Shopify and headless ecommerce developer specializing in performance optimization and scalable storefront architecture.",
-    url: "https://benmoore.vercel.app", // update later if custom domain
+      "Shopify ecommerce developer specializing in performance optimization and scalable storefront architecture.",
+    url: "https://www.ben-moore.dev/",
     siteName: "Ben Moore",
     type: "website",
   },

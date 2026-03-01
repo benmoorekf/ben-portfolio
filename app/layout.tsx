@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next";
 import "./globals.css";
 import { Nav } from "../components/nav";
@@ -33,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main className="mx-auto w-full max-w-2xl px-5 py-12 sm:py-16 lg:max-w-5xl lg:px-6">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
